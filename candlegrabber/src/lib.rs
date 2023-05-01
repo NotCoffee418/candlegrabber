@@ -1,3 +1,6 @@
+pub mod validation;
+pub mod binance;
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
