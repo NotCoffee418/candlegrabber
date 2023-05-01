@@ -1,0 +1,2 @@
+[workspace]
+members = ["candlegrabber_demo", "candlegrabber"]
