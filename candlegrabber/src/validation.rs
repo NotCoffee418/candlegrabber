@@ -16,5 +16,5 @@ pub fn validate_duration_str(input: &str) -> bool {
         input == "1d" ||
         input == "3d" ||
         input == "1w" ||
-        input == "1M"
+        input == "1mo"
 }

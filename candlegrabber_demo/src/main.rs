@@ -1,5 +1,5 @@
 use std::io;
-use candlegrabber::binance;
+use candlegrabber::data_compiler;
 use candlegrabber::validation::validate_duration_str;
 
 
@@ -14,7 +14,7 @@ fn main() {
 
     // Call library and collect data
     println!("Collecting data for {} {}. This will take several minutes.", pair, duration);
-    binance::grab_data_binance(&pair, &duration);
+    data_compiler::grab_data_binance(&pair, &duration);
 
     // Hang app until manual close
     println!("\nPress ENTER to close window.");
